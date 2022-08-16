@@ -1,0 +1,304 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 10px auto;
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+      "header       header      header"
+      "contenido    contenido   contenido"
+      "aside        aside       aside"
+      "footer       footer      footer"; 
+
+}
+
+
+/* header aqui trabaje el logo y el menu*/
+
+.contenedor .header { 
+    grid-area: header;
+    border-bottom:2px solid #7c4390;
+    width: 100%;
+    padding: 5px; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor .header .logo img{
+    width: 100px;
+    border-radius: 20px;
+}
+.contenedor .header .menu ul {
+    display: flex;
+    list-style: none;
+}
+.contenedor .header .menu li {
+    padding: 10px;
+}
+.contenedor .header a {
+    text-decoration: none;
+    color: #000000;
+}
+.contenedor .header a:hover {
+    color: #298983;
+}
+main {
+    min-height: 80vh;
+}
+/* aqui trabaje el contenido de pag de inicio */
+
+.contenedor .contenido { 
+    grid-area: contenido; 
+}
+.contenedor .contenido .titulo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contenedor .contenido .contenidoIndex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+}
+.contenedor .contenido .contenidoIndex img {
+    width: 100%;
+    border-radius: 10px;
+}
+.contenedor .contenido .contenidoIndex .galeria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* aqui trabaje el contenido de pag de tours */
+
+.contenedor .contenido .contenidoTours {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.contenidoTours .tours {
+    width: 300px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+.contenidoTours .tours:hover {
+    border: 2px solid #7c4390;
+}
+.contenidoTours .tours img{
+    width: 100%;
+    padding: 10px;
+}
+.contenidoTours .tours .textos {
+    text-align: center;
+}
+
+/* aqui trabaje el contenido de pag de traslados */
+
+.contenedor .contenido .contenidoTraslados {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+
+}
+.contenidoTraslados .transporte {
+    width: 45%;
+    padding: 10px;
+    flex-grow: 1;
+}
+.contenidoTraslados img {
+    width: 100%;
+    padding-top: 10px;
+    
+}
+.contenidoTraslados h2 {
+    text-align: center;
+}
+.contenidoTraslados p {
+    text-align: justify;
+}
+.contenidoTraslados .transporte .boton button {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+/* aqui trabaje el contenido de pag de recomedaciones */
+
+.contenedor .contenido .contenidoRecomendaciones {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 40px;
+
+}
+.contenidoRecomendaciones .recomendaciones {
+    padding: 20px;
+    flex-grow: 1;
+}
+.contenidoRecomendaciones .recomendaciones h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contenidoRecomendaciones .recomendaciones ol {
+    list-style: none;
+}
+.contenidoRecomendaciones .pregunta {
+    font-weight: bold;
+    font-size: 20px; 
+}
+.contenidoRecomendaciones .respuesta {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+
+/* aqui trabaje el contenido de pag de contacto */
+
+.contenedor .contenido .contenidoContacto {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 20px;
+}
+.contenidoContacto .formGrupo {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #7c4390;
+    border-radius: 10px;
+}
+.contenidoContacto .formGrupo > label, input, select, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 35px;
+    padding-left: 5px;
+}
+.contenidoContacto textarea{
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+.contenidoContacto .formGrupo input[type=submit]:hover{
+    cursor: pointer;
+}
+
+.contenidoContacto .tabla {
+    border-collapse: collapse;
+}
+.contenidoContacto .tabla th {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #7c4390;
+}
+.contenidoContacto .tabla td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+/* aqui trabaje el aside */
+
+.contenedor .aside { 
+    grid-area: aside;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around
+}
+.contenedor .aside h3 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.contenedor .aside img {
+    width: 100px;
+    border-radius: 50%;
+}
+.contenedor .aside img:hover {
+    width: 100px;
+    border: 2px solid #7c4390;
+}
+
+/* aqui trabaje el footer */
+
+.contenedor .footer { 
+    grid-area: footer;
+    border-top: 2px solid #7c4390;   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 40px;   
+}
+.contenedor .footer img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* aqui trabaje pantalla version tablet*/
+
+@media screen and (max-width: 768px) {
+
+    .contenedor {
+      
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+          "header       header      header"
+          "contenido    contenido   contenido"
+          "aside        aside       aside"
+          "footer       footer      footer"; 
+    }
+
+}
+
+/* aqui trabaje pantalla version movil*/
+
+@media screen and (max-width: 576px) {
+
+    .contenedor {
+        
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+          "header       header      header"
+          "contenido    contenido   contenido"
+          "aside        aside       aside"
+          "footer       footer      footer"; 
+    }
+    .contenedor .header { 
+        
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .contenidoTraslados .transporte {
+        width: 100%;
+    }
+
+}
