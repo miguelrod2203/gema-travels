@@ -68,7 +68,17 @@ main {
 .contenedor .contenido .titulo {
     text-align: center;
     padding-bottom: 10px;
+    animation-name: efectoTitulos;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes efectoTitulos {
+    0%      {color: #000000;}
+    50%     {color: #298983;}
+    100%    {color: #7c4390;}
+}
+
 .contenedor .contenido .contenidoIndex {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
