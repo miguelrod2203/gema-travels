@@ -274,21 +274,11 @@ main {
 }
 
 /* aqui trabaje pantalla version tablet*/
+/* al 18/08/22 no requiere cambios*/
 
 @media screen and (max-width: 768px) {
 
-    .contenedor {
-      
-        display: grid;
-        gap: 20px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, auto);
-        grid-template-areas: 
-          "header       header      header"
-          "contenido    contenido   contenido"
-          "aside        aside       aside"
-          "footer       footer      footer"; 
-    }
+
 
 }
 
@@ -296,18 +286,6 @@ main {
 
 @media screen and (max-width: 576px) {
 
-    .contenedor {
-        
-        display: grid;
-        gap: 20px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, auto);
-        grid-template-areas: 
-          "header       header      header"
-          "contenido    contenido   contenido"
-          "aside        aside       aside"
-          "footer       footer      footer"; 
-    }
     .contenedor .header { 
         
         display: flex;
