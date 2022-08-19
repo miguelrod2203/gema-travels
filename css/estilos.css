@@ -211,6 +211,12 @@ main {
     max-height: 300px;
     min-height: 100px;
 }
+.contenidoContacto .formGrupo input {
+    transition: 5s;
+}
+.contenidoContacto .formGrupo input:focus {
+    background-color: #d8a4eb;
+}
 .contenidoContacto .formGrupo input[type=submit]:hover{
     cursor: pointer;
 }
