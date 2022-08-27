@@ -3,11 +3,13 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 body {
     background-color: #ffffff;
     color: #000000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .contenedor {
     width: 90%;
     max-width: 1200px;
@@ -25,41 +27,29 @@ body {
 
 }
 
+main {
+    min-height: 80vh;
+}
 
-/* header aqui trabaje el logo y el menu*/
+/* header aqui trabaje el logo y el menu aplicamos bootstrap*/
 
 .contenedor .header { 
     grid-area: header;
     background-image: linear-gradient(to right, white 60%, #7c4390);
-    border-bottom:2px solid #7c4390;
-    width: 100%;
-    padding: 5px; 
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    border-bottom:1px solid #7c4390;
 }
-.contenedor .header .logo img{
-    width: 100px;
+.contenedor .header .navbar-brand img{
+    width: 80px;
     border-radius: 20px;
 }
-.contenedor .header .menu ul {
-    display: flex;
-    list-style: none;
-}
-.contenedor .header .menu li {
-    padding: 10px;
-}
 .contenedor .header a {
-    text-decoration: none;
     color: #000000;
 }
 .contenedor .header a:hover {
     color: #298983;
+    text-shadow: 1px 1px 1px #176d67;
 }
-main {
-    min-height: 80vh;
-}
+
 /* aqui trabaje el contenido de pag de inicio */
 
 .contenedor .contenido { 
@@ -283,15 +273,9 @@ main {
 }
 
 /* aqui trabaje pantalla version movil*/
-
+/* al 27/08/22 actualizada*/
 @media screen and (max-width: 576px) {
 
-    .contenedor .header { 
-        
-        display: flex;
-        flex-direction: column;
-    
-    }
     .contenidoTraslados .transporte {
         width: 100%;
     }
