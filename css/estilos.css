@@ -173,9 +173,6 @@ main {
     text-align: center;
     padding-bottom: 20px;
 }
-.contenidoRecomendaciones .recomendaciones ol {
-    list-style: none;
-}
 .contenidoRecomendaciones .pregunta {
     font-weight: bold;
     font-size: 20px; 
@@ -184,6 +181,13 @@ main {
     font-style: italic;
     padding-bottom: 20px;
 }
+.contenidoRecomendaciones .accordion {
+    --bs-accordion-btn-focus-border-color: #ffffff;
+    --bs-accordion-btn-focus-box-shadow: #ffffff;
+    --bs-accordion-active-color: #7c4390 ;
+    --bs-accordion-active-bg: #ffffff;
+}
+
 
 
 /* aqui trabaje el contenido de pag de contacto */
