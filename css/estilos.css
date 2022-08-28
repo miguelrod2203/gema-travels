@@ -50,7 +50,7 @@ main {
     text-shadow: 1px 1px 1px #176d67;
 }
 
-/* aqui trabaje el contenido de pag de inicio */
+/* aqui trabaje los titulos principales */
 
 .contenedor .contenido { 
     grid-area: contenido; 
@@ -68,6 +68,17 @@ main {
     50%     {color: #298983;}
     100%    {color: #7c4390;}
 }
+
+/* aqui trabaje el carousel de inicio */
+.slide img {
+    max-height: 60vh;
+}
+.carousel button svg {
+    color: #000000;
+}
+
+
+/* aqui trabaje el contenido de pag de inicio */
 
 .contenedor .contenido .contenidoIndex {
     display: grid;
