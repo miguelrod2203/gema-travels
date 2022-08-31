@@ -1,0 +1,17 @@
+.contenedor {
+    .footer { 
+        grid-area: footer;
+        border-top: 2px solid #7c4390;   
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center; 
+        height: 40px;   
+
+        img {
+            width: 30px;
+            border-radius: 50%;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.contenedor {
+    .contenido {
+        .contenidoContacto {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: baseline;
+            justify-content: space-around;
+            gap: 20px;
+
+            .formGrupo {
+                width: 300px;
+                padding: 10px;
+                border: 2px solid #7c4390;
+                border-radius: 10px;
+
+                label {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    height: 35px;
+                    padding-left: 5px;
+                }
+                input {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    height: 35px;
+                    padding-left: 5px;
+                    transition: 5s;
+
+                    &:focus {
+                        background-color: #d8a4eb;
+                    }
+                }
+                select {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    height: 35px;
+                    padding-left: 5px;
+                }
+                textarea {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    height: 35px;
+                    padding-left: 5px;
+                }
+            }
+            textarea{
+                resize: vertical;
+                max-height: 300px;
+                min-height: 100px;
+            }
+            .tabla {
+                border-collapse: collapse;
+
+                th {
+                    border: 1px solid #000;
+                    padding: 10px;
+                    background-color: #7c4390;
+                }
+                td {
+                    border: 1px solid #cccccc;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}

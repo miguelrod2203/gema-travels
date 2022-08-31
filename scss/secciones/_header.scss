@@ -1,0 +1,25 @@
+.contenedor {
+
+    .header { 
+        grid-area: header;
+        background-image: linear-gradient(to right, white 60%, #7c4390);
+        border-bottom:1px solid #7c4390;
+
+        .navbar-brand {
+            img{
+                width: 80px;
+                border-radius: 20px;
+            }
+        }
+
+        a {
+            color: #000000;
+
+            &:hover {
+                color: #298983;
+                text-shadow: 1px 1px 1px #176d67;
+            }
+        }
+    }
+
+}

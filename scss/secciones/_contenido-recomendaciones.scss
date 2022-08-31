@@ -1,0 +1,34 @@
+.contenedor {
+    .contenido {
+        .contenidoRecomendaciones {
+            width: 100%;
+            display: flex;
+            flex-flow: column wrap;
+            gap: 40px;
+
+            .recomendaciones {
+                padding: 20px;
+                flex-grow: 1;
+
+                h2 {
+                    text-align: center;
+                    padding-bottom: 20px;
+                }
+            }
+            .pregunta {
+                font-weight: bold;
+                font-size: 20px; 
+            }
+            .respuesta {
+                font-style: italic;
+                padding-bottom: 20px;
+            }
+            .accordion {
+                --bs-accordion-btn-focus-border-color: #ffffff;
+                --bs-accordion-btn-focus-box-shadow: #ffffff;
+                --bs-accordion-active-color: #7c4390 ;
+                --bs-accordion-active-bg: #ffffff;
+            }
+        }
+    }
+}

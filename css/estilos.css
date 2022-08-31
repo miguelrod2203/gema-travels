@@ -1,0 +1,217 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: 10px auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header       header      header" "contenido    contenido   contenido" "aside        aside       aside" "footer       footer      footer"; }
+
+main {
+  min-height: 80vh; }
+
+.contenedor .header {
+  grid-area: header;
+  background-image: linear-gradient(to right, white 60%, #7c4390);
+  border-bottom: 1px solid #7c4390; }
+  .contenedor .header .navbar-brand img {
+    width: 80px;
+    border-radius: 20px; }
+  .contenedor .header a {
+    color: #000000; }
+    .contenedor .header a:hover {
+      color: #298983;
+      text-shadow: 1px 1px 1px #176d67; }
+
+.contenedor .contenido {
+  grid-area: contenido; }
+  .contenedor .contenido .titulo {
+    text-align: center;
+    padding-bottom: 10px;
+    animation-name: efectoTitulos;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; }
+
+@keyframes efectoTitulos {
+  0% {
+    color: #000000; }
+  50% {
+    color: #298983; }
+  100% {
+    color: #7c4390; } }
+
+.slide img {
+  max-height: 60vh; }
+
+.carousel button svg {
+  color: #000000; }
+
+.contenedor .contenido .contenidoIndex {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense; }
+  .contenedor .contenido .contenidoIndex img {
+    width: 100%;
+    border-radius: 10px; }
+  .contenedor .contenido .contenidoIndex .galeria {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.contenedor .contenido .contenidoTours {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 20px; }
+  .contenedor .contenido .contenidoTours .tours {
+    width: 300px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    flex-grow: 1; }
+    .contenedor .contenido .contenidoTours .tours:hover {
+      border: 2px solid #7c4390; }
+    .contenedor .contenido .contenidoTours .tours img {
+      width: 100%;
+      padding: 10px; }
+    .contenedor .contenido .contenidoTours .tours .textos {
+      text-align: center; }
+
+.contenedor .contenido .contenidoTraslados {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px; }
+  .contenedor .contenido .contenidoTraslados .transporte {
+    width: 45%;
+    padding: 10px;
+    flex-grow: 1; }
+    .contenedor .contenido .contenidoTraslados .transporte .boton button {
+      width: 100%;
+      height: 30px;
+      margin-top: 10px; }
+  .contenedor .contenido .contenidoTraslados img {
+    width: 100%;
+    padding-top: 10px; }
+  .contenedor .contenido .contenidoTraslados h2 {
+    text-align: center; }
+  .contenedor .contenido .contenidoTraslados p {
+    text-align: justify; }
+
+.contenedor .contenido .contenidoRecomendaciones {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 40px; }
+  .contenedor .contenido .contenidoRecomendaciones .recomendaciones {
+    padding: 20px;
+    flex-grow: 1; }
+    .contenedor .contenido .contenidoRecomendaciones .recomendaciones h2 {
+      text-align: center;
+      padding-bottom: 20px; }
+  .contenedor .contenido .contenidoRecomendaciones .pregunta {
+    font-weight: bold;
+    font-size: 20px; }
+  .contenedor .contenido .contenidoRecomendaciones .respuesta {
+    font-style: italic;
+    padding-bottom: 20px; }
+  .contenedor .contenido .contenidoRecomendaciones .accordion {
+    --bs-accordion-btn-focus-border-color: #ffffff;
+    --bs-accordion-btn-focus-box-shadow: #ffffff;
+    --bs-accordion-active-color: #7c4390 ;
+    --bs-accordion-active-bg: #ffffff; }
+
+.contenedor .contenido .contenidoContacto {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-around;
+  gap: 20px; }
+  .contenedor .contenido .contenidoContacto .formGrupo {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #7c4390;
+    border-radius: 10px; }
+    .contenedor .contenido .contenidoContacto .formGrupo label {
+      width: 100%;
+      margin-bottom: 10px;
+      height: 35px;
+      padding-left: 5px; }
+    .contenedor .contenido .contenidoContacto .formGrupo input {
+      width: 100%;
+      margin-bottom: 10px;
+      height: 35px;
+      padding-left: 5px;
+      transition: 5s; }
+      .contenedor .contenido .contenidoContacto .formGrupo input:focus {
+        background-color: #d8a4eb; }
+    .contenedor .contenido .contenidoContacto .formGrupo select {
+      width: 100%;
+      margin-bottom: 10px;
+      height: 35px;
+      padding-left: 5px; }
+    .contenedor .contenido .contenidoContacto .formGrupo textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      height: 35px;
+      padding-left: 5px; }
+  .contenedor .contenido .contenidoContacto textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px; }
+  .contenedor .contenido .contenidoContacto .tabla {
+    border-collapse: collapse; }
+    .contenedor .contenido .contenidoContacto .tabla th {
+      border: 1px solid #000;
+      padding: 10px;
+      background-color: #7c4390; }
+    .contenedor .contenido .contenidoContacto .tabla td {
+      border: 1px solid #cccccc;
+      padding: 10px; }
+
+.contenedor .aside {
+  grid-area: aside;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around; }
+  .contenedor .aside h3 {
+    text-align: center;
+    padding-bottom: 15px; }
+  .contenedor .aside img {
+    width: 100px;
+    border-radius: 50%; }
+    .contenedor .aside img:hover {
+      width: 100px;
+      border: 2px solid #7c4390; }
+
+.contenedor .footer {
+  grid-area: footer;
+  border-top: 2px solid #7c4390;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px; }
+  .contenedor .footer img {
+    width: 30px;
+    border-radius: 50%; }
+
+@media screen and (max-width: 576px) {
+  .contenidoTraslados .transporte {
+    width: 100%; } }

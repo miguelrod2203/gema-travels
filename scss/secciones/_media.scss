@@ -1,0 +1,17 @@
+// para trabajar pantalla version tablet
+
+@media screen and (max-width: 768px) {
+
+}
+
+// para trabajar pantalla version movil 
+
+@media screen and (max-width: 576px) {
+
+    .contenidoTraslados {
+
+        .transporte {
+            width: 100%;
+        }
+    }
+}

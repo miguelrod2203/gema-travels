@@ -1,0 +1,16 @@
+.contenedor .contenido { 
+    grid-area: contenido; 
+    .titulo {
+        text-align: center;
+        padding-bottom: 10px;
+        animation-name: efectoTitulos;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes efectoTitulos {
+    0%      {color: #000000;}
+    50%     {color: #298983;}
+    100%    {color: #7c4390;}
+}
