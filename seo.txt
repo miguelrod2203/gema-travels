@@ -1,29 +1,68 @@
 modifique titulos <title> en cada seccion.
-    index ... Gema Travels
-    tours ... Gema Tours
-    traslados ... Gema Traslados
+
+    index ...           Gema Travels
+
+    tours ...           Gema Tours
+
+    traslados ...       Gema Traslados
+
     recomendaciones ... Gema Recomendaciones
-    contacto ... Gema Contactos
+
+    contacto ...        Gema Contactos
 
 
 utilice el meta keywords en cada seccion.
+
 palabras claves utilizadas
+
     "gema travels, turismo chile, tours chile, traslados, guia turistico, 
     porque viajar a chile, feriados, fin de semana largo, vacaciones, aventura"
 
 
 utilice el meta title en cada seccion.
-    index ... Gema travels Tours en Chile, Viña del Mar, Termas, Valle Nevado y más.
-    tours ... Gema travels Tours y aventuras disponibles para ti todo el año.
-    traslados ... Gema travels Te llevamos a donde quieres por mar, aire y tierra.
+
+    index ...           Gema travels Tours en Chile, Viña del Mar, Termas, Valle Nevado y más.
+
+    tours ...           Gema travels Tours y aventuras disponibles para ti todo el año.
+
+    traslados ...       Gema travels Te llevamos a donde quieres por mar, aire y tierra.
+
     recomendaciones ... Gema travels Lo que necesitas saber para tus viajes te lo aclaramos.
-    contacto ... Gema travels Vive con nosotros una gran aventura, cotiza aqui.
+
+    contacto ...        Gema travels Vive con nosotros una gran aventura, cotiza aqui.
 
 
 utilice el meta description en cada seccion 
-    index ... 
-    tours ... 
-    traslados ... 
-    recomendaciones ... 
-    contacto ... 
+
+    index ...           Bienvenido a chile, en Gema Travels te guiaremos para que conozcas los lugares 
+                        más hermosos, tours todo el año, traslados confiables, también puedes armar una 
+                        nueva aventura, nos adaptamos a tu tiempo.
+
+    tours ...           Bienvenido a chile, en Gema Travels tenemos tours para todos los gustos, viña del 
+                        mar, las siete tazas, parapente, viñedos, huilo huilo, termas, rafting, parque acuático, 
+                        parque farellones y muchos mas.
+
+    traslados ...       Bienvenido a chile, en Gema Travels te trasladamos por tierra, aire y mar hasta tu destino, 
+                        hacemos las reservas de tus vuelos y te llevamos a todos tus eventos.
+
+    recomendaciones ... Bienvenido a chile, en Gema Travels tenemos todas las recomendaciones para que disfrutes de 
+                        todo el viaje sin preocupaciones ni estrés y los protocolos actuales por el COVID.
+
+    contacto ...        Bienvenido a chile, en Gema vive con nosotros una gran aventura, puedes cotizar sin 
+                        compromiso y reprogramar o cancelar tu viaje avisando hasta 72 horas antes y te devolvemos 
+                        la totalidad de tu aporte.
+
+    
+revise la jerarque de todos los encabezados (h) 
+
+    h1 ...          una sola vez por pag.
+
+    h2 ...          despues de h1.
+
+    h3 ...          despues de h2.
+
+    h4, h5, h6 .... no fueron utilizados aun.
+
+
+
 
