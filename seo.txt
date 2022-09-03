@@ -1,0 +1,29 @@
+modifique titulos <title> en cada seccion.
+    index ... Gema Travels
+    tours ... Gema Tours
+    traslados ... Gema Traslados
+    recomendaciones ... Gema Recomendaciones
+    contacto ... Gema Contactos
+
+
+utilice el meta keywords en cada seccion.
+palabras claves utilizadas
+    "gema travels, turismo chile, tours chile, traslados, guia turistico, 
+    porque viajar a chile, feriados, fin de semana largo, vacaciones, aventura"
+
+
+utilice el meta title en cada seccion.
+    index ... Gema travels Tours en Chile, Viña del Mar, Termas, Valle Nevado y más.
+    tours ... Gema travels Tours y aventuras disponibles para ti todo el año.
+    traslados ... Gema travels Te llevamos a donde quieres por mar, aire y tierra.
+    recomendaciones ... Gema travels Lo que necesitas saber para tus viajes te lo aclaramos.
+    contacto ... Gema travels Vive con nosotros una gran aventura, cotiza aqui.
+
+
+utilice el meta description en cada seccion 
+    index ... 
+    tours ... 
+    traslados ... 
+    recomendaciones ... 
+    contacto ... 
+
