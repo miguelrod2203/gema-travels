@@ -34,6 +34,15 @@ main {
       color: #298983;
       text-shadow: 1px 1px 1px #176d67; }
 
+.contenedor .contenido .migas {
+  display: flex;
+  justify-content: center; }
+  .contenedor .contenido .migas nav .breadcrumb li a {
+    text-decoration: none;
+    color: #298983; }
+  .contenedor .contenido .migas nav .breadcrumb .breadcrumb-item {
+    color: #7c4390; }
+
 .contenedor .contenido {
   grid-area: contenido; }
   .contenedor .contenido .titulo {

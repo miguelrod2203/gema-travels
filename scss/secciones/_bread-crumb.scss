@@ -1,0 +1,22 @@
+.contenedor {
+    .contenido {
+        .migas {
+            display: flex;
+            justify-content: center;
+
+            nav {
+                .breadcrumb{
+                    li {
+                        a {
+                            text-decoration: none;
+                            color: #298983;
+                        }
+                    }
+                    .breadcrumb-item {
+                            color: #7c4390;
+                    }
+                }
+            }
+        }
+    }
+}
