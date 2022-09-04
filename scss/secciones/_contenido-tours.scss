@@ -8,12 +8,12 @@
             gap: 20px;
             .tours {
                 width: 300px;
-                border: 2px solid #cccccc;
+                border: 2px solid $gris;
                 border-radius: 10px;
                 flex-grow: 1;
 
                 &:hover {
-                    border: 2px solid #7c4390;
+                    border: 2px solid $colorPrincipal;
                 }
                 img{
                     width: 100%;
