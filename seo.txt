@@ -67,3 +67,5 @@ revise la jerarque de todos los encabezados (h)
 agregue breadcrumb a todas las secciones 
 
 modifique el footer para crear un mapa de navegacion sencilla.
+
+agregue un sitemap para buscadores utilizando XML-sitemaps.com
