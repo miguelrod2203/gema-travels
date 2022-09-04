@@ -217,9 +217,21 @@ main {
   justify-content: space-between;
   align-items: center;
   height: 40px; }
-  .contenedor .footer img {
-    width: 30px;
-    border-radius: 50%; }
+  .contenedor .footer .redes-sociales h4, .contenedor .footer .nosotros h4, .contenedor .footer .ayuda h4 {
+    text-align: center; }
+  .contenedor .footer .redes-sociales ul li, .contenedor .footer .nosotros ul li, .contenedor .footer .ayuda ul li {
+    list-style: none; }
+    .contenedor .footer .redes-sociales ul li a, .contenedor .footer .nosotros ul li a, .contenedor .footer .ayuda ul li a {
+      text-decoration: none;
+      color: #7c4390; }
+      .contenedor .footer .redes-sociales ul li a:hover, .contenedor .footer .nosotros ul li a:hover, .contenedor .footer .ayuda ul li a:hover {
+        text-decoration: underline; }
+  .contenedor .footer .redes-sociales svg, .contenedor .footer .nosotros svg, .contenedor .footer .ayuda svg {
+    color: #298983; }
+  .contenedor .footer .ubicacion a img {
+    width: 150px; }
+  .contenedor .footer .ubicacion p {
+    color: #7c4390; }
 
 @media screen and (max-width: 576px) {
   .contenidoTraslados .transporte {

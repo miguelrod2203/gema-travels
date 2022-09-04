@@ -7,11 +7,39 @@
         flex-direction: row;
         justify-content: space-between; 
         align-items: center; 
-        height: 40px;   
-
-        img {
-            width: 30px;
-            border-radius: 50%;
+        height: 40px; 
+        
+        .redes-sociales, .nosotros, .ayuda {
+            h4 {
+                text-align: center;
+            }
+            ul {
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: #7c4390;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            svg {
+                color: #298983;
+            }
         }
+        .ubicacion {
+            a {
+                img {
+                    width: 150px;
+                }
+            }
+            p {
+                color: #7c4390;
+            }
+        }
+
+
     }
-}
+}       
