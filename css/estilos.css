@@ -185,7 +185,7 @@ main {
   .contenedor .contenido .contenidoContacto .tabla {
     border-collapse: collapse; }
     .contenedor .contenido .contenidoContacto .tabla th {
-      border: 1px solid #000;
+      border: 1px solid #000000;
       padding: 10px;
       background-color: #7c4390; }
     .contenedor .contenido .contenidoContacto .tabla td {

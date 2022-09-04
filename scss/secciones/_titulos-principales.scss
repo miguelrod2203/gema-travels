@@ -10,7 +10,7 @@
 }
 
 @keyframes efectoTitulos {
-    0%      {color: #000000;}
-    50%     {color: #298983;}
-    100%    {color: #7c4390;}
+    0%      {color: $negro;}
+    50%     {color: $colorSecundario;}
+    100%    {color: $colorPrincipal;}
 }

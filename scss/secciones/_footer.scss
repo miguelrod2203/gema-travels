@@ -1,7 +1,7 @@
 .contenedor {
     .footer { 
         grid-area: footer;
-        border-top: 2px solid #7c4390;   
+        border-top: 2px solid $colorPrincipal;   
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -18,7 +18,7 @@
                     list-style: none;
                     a {
                         text-decoration: none;
-                        color: #7c4390;
+                        color: $colorPrincipal;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -26,7 +26,7 @@
                 }
             }
             svg {
-                color: #298983;
+                color: $colorSecundario;
             }
         }
         .ubicacion {
@@ -36,7 +36,7 @@
                 }
             }
             p {
-                color: #7c4390;
+                color: $colorPrincipal;
             }
         }
 

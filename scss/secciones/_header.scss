@@ -2,8 +2,8 @@
 
     .header { 
         grid-area: header;
-        background-image: linear-gradient(to right, white 60%, #7c4390);
-        border-bottom:1px solid #7c4390;
+        background-image: $fondoHeader;
+        border-bottom:1px solid $colorPrincipal;
 
         .navbar-brand {
             img{
@@ -13,11 +13,11 @@
         }
 
         a {
-            color: #000000;
+            color: $negro;
 
             &:hover {
-                color: #298983;
-                text-shadow: 1px 1px 1px #176d67;
+                color: $colorSecundario;
+                text-shadow: 1px 1px 1px $sombraSecundario;
             }
         }
     }

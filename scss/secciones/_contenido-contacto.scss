@@ -10,7 +10,7 @@
             .formGrupo {
                 width: 300px;
                 padding: 10px;
-                border: 2px solid #7c4390;
+                border: 2px solid $colorPrincipal;
                 border-radius: 10px;
 
                 label {
@@ -27,7 +27,7 @@
                     transition: 5s;
 
                     &:focus {
-                        background-color: #d8a4eb;
+                        background-color: $sombraPrincipal;
                     }
                 }
                 select {
@@ -52,12 +52,12 @@
                 border-collapse: collapse;
 
                 th {
-                    border: 1px solid #000;
+                    border: 1px solid $negro;
                     padding: 10px;
-                    background-color: #7c4390;
+                    background-color: $colorPrincipal;
                 }
                 td {
-                    border: 1px solid #cccccc;
+                    border: 1px solid $gris;
                     padding: 10px;
                 }
             }
