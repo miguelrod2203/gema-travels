@@ -1,0 +1,12 @@
+@mixin temporada ($hover) {
+    &:hover {
+        border: 2px solid $colorPrincipal;
+    }
+    img{
+        width: 100%;
+        padding: 10px;
+    }
+    .textos {
+        text-align: center;
+    }
+}

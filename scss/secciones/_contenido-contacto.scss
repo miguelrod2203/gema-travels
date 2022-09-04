@@ -49,17 +49,7 @@
                 min-height: 100px;
             }
             .tabla {
-                border-collapse: collapse;
-
-                th {
-                    border: 1px solid $negro;
-                    padding: 10px;
-                    background-color: $colorPrincipal;
-                }
-                td {
-                    border: 1px solid $gris;
-                    padding: 10px;
-                }
+                @extend %formatoTablas;
             }
         }
     }

@@ -3,6 +3,16 @@
   margin: 0px;
   box-sizing: border-box; }
 
+.contenedor .contenido .contenidoContacto .tabla {
+  border-collapse: collapse; }
+  .contenedor .contenido .contenidoContacto .tabla th {
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #7c4390; }
+  .contenedor .contenido .contenidoContacto .tabla td {
+    border: 1px solid #cccccc;
+    padding: 10px; }
+
 body {
   background-color: #ffffff;
   color: #000000;
@@ -182,15 +192,6 @@ main {
     resize: vertical;
     max-height: 300px;
     min-height: 100px; }
-  .contenedor .contenido .contenidoContacto .tabla {
-    border-collapse: collapse; }
-    .contenedor .contenido .contenidoContacto .tabla th {
-      border: 1px solid #000000;
-      padding: 10px;
-      background-color: #7c4390; }
-    .contenedor .contenido .contenidoContacto .tabla td {
-      border: 1px solid #cccccc;
-      padding: 10px; }
 
 .contenedor .aside {
   grid-area: aside;
