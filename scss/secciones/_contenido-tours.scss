@@ -12,16 +12,18 @@
                 border-radius: 10px;
                 flex-grow: 1;
 
-                &:hover {
-                    border: 2px solid $colorPrincipal;
-                }
-                img{
-                    width: 100%;
-                    padding: 10px;
-                }
-                .textos {
-                    text-align: center;
-                }
+            }
+            .toursInvierno {
+                @include temporada($invierno);
+            }
+            .toursPrimavera {
+                @include temporada($primavera);
+            }
+            .toursVerano {
+                @include temporada($verano);
+            }
+            .toursAventura {
+                @include temporada($aventura);
             }
 
         }

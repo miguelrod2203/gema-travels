@@ -102,13 +102,34 @@ main {
     border: 2px solid #cccccc;
     border-radius: 10px;
     flex-grow: 1; }
-    .contenedor .contenido .contenidoTours .tours:hover {
-      border: 2px solid #7c4390; }
-    .contenedor .contenido .contenidoTours .tours img {
-      width: 100%;
-      padding: 10px; }
-    .contenedor .contenido .contenidoTours .tours .textos {
-      text-align: center; }
+  .contenedor .contenido .contenidoTours .toursInvierno:hover {
+    border: 2px solid #50d6d6; }
+  .contenedor .contenido .contenidoTours .toursInvierno img {
+    width: 100%;
+    padding: 10px; }
+  .contenedor .contenido .contenidoTours .toursInvierno .textos {
+    text-align: center; }
+  .contenedor .contenido .contenidoTours .toursPrimavera:hover {
+    border: 2px solid #24e635; }
+  .contenedor .contenido .contenidoTours .toursPrimavera img {
+    width: 100%;
+    padding: 10px; }
+  .contenedor .contenido .contenidoTours .toursPrimavera .textos {
+    text-align: center; }
+  .contenedor .contenido .contenidoTours .toursVerano:hover {
+    border: 2px solid #f9fd07; }
+  .contenedor .contenido .contenidoTours .toursVerano img {
+    width: 100%;
+    padding: 10px; }
+  .contenedor .contenido .contenidoTours .toursVerano .textos {
+    text-align: center; }
+  .contenedor .contenido .contenidoTours .toursAventura:hover {
+    border: 2px solid #e93515; }
+  .contenedor .contenido .contenidoTours .toursAventura img {
+    width: 100%;
+    padding: 10px; }
+  .contenedor .contenido .contenidoTours .toursAventura .textos {
+    text-align: center; }
 
 .contenedor .contenido .contenidoTraslados {
   width: 100%;
