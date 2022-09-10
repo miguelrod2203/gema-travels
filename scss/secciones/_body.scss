@@ -3,3 +3,10 @@ body {
     color: $negro;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+body::-webkit-scrollbar {
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: $colorPrincipal;
+    border-radius: 5px;
+}
