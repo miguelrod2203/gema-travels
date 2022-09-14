@@ -147,17 +147,27 @@ main {
     width: 45%;
     padding: 10px;
     flex-grow: 1; }
-    .contenedor .contenido .contenidoTraslados .transporte .boton a {
-      width: 100%; }
-    .contenedor .contenido .contenidoTraslados .transporte .boton .btn-outline-success {
-      --bs-btn-color: $negro; }
+    .contenedor .contenido .contenidoTraslados .transporte .boton {
+      border-radius: 5px; }
+      .contenedor .contenido .contenidoTraslados .transporte .boton a {
+        width: 100%; }
+        .contenedor .contenido .contenidoTraslados .transporte .boton a:hover {
+          background-color: #298983;
+          color: #ffffff; }
+      .contenedor .contenido .contenidoTraslados .transporte .boton .btn-outline-success {
+        --bs-btn-color: $negro; }
+      .contenedor .contenido .contenidoTraslados .transporte .boton:hover {
+        background-color: #298983;
+        color: #ffffff; }
   .contenedor .contenido .contenidoTraslados img {
     width: 100%;
-    padding-top: 10px; }
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #298983; }
   .contenedor .contenido .contenidoTraslados h2 {
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 10px; }
   .contenedor .contenido .contenidoTraslados p {
-    padding-top: 5px;
+    padding-top: 10px;
     text-align: justify; }
 
 .contenedor .contenido .contenidoRecomendaciones {
@@ -282,5 +292,8 @@ main {
     color: #7c4390; }
 
 @media screen and (max-width: 576px) {
-  .contenidoTraslados .transporte {
-    width: 100%; } }
+  .contenedor .contenido .contenidoTraslados {
+    display: flex;
+    flex-flow: column; }
+    .contenedor .contenido .contenidoTraslados .transporte {
+      width: 100%; } }

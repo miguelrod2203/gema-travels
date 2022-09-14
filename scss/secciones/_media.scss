@@ -7,11 +7,17 @@
 // para trabajar pantalla version movil 
 
 @media screen and (max-width: 576px) {
+    .contenedor {
+        .contenido {
+            .contenidoTraslados {
+                display: flex;
+                flex-flow: column;
 
-    .contenidoTraslados {
-
-        .transporte {
-            width: 100%;
-        }
+                .transporte {
+                    width: 100%;
+                }
+            }
+        }    
     }
+
 }
