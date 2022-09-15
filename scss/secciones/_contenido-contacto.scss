@@ -5,49 +5,67 @@
             flex-flow: row wrap;
             align-items: baseline;
             justify-content: space-around;
-            gap: 20px;
+            gap: 30px;
 
             .formGrupo {
-                width: 300px;
+                width: 400px;
                 padding: 10px;
-                border: 2px solid $colorPrincipal;
+                border: 1px solid $colorPrincipal;
                 border-radius: 10px;
+
+                h2 {
+                    padding: 20px;
+                    font-size: 22px;
+                }
 
                 label {
                     width: 100%;
-                    margin-bottom: 10px;
-                    height: 35px;
+                    padding-bottom: 10px;
                     padding-left: 5px;
                 }
                 input {
                     width: 100%;
                     margin-bottom: 10px;
                     height: 35px;
-                    padding-left: 5px;
-                    transition: 5s;
-
+                    padding-left: 10px;
+                    border: 1px solid $colorSecundario;
+                    border-radius: 5px;                    
                     &:focus {
+                        transition: 3s;
                         background-color: $sombraPrincipal;
                     }
+
                 }
                 select {
                     width: 100%;
                     margin-bottom: 10px;
                     height: 35px;
-                    padding-left: 5px;
+                    padding-left: 10px;
+                    border: 1px solid $colorSecundario;
+                    border-radius: 5px;
                 }
                 textarea {
                     width: 100%;
                     margin-bottom: 10px;
                     height: 35px;
-                    padding-left: 5px;
+                    padding-left: 10px;
+                    border: 1px solid $colorSecundario;
+                    border-radius: 5px;
+                    resize: vertical;
+                    max-height: 300px;
+                    min-height: 100px;
+                }
+                .enviar {
+                    background-color: $colorSecundario;
+                    color: $negro;
+                    &:hover {
+                        background-color: $colorPrincipal;
+                        border-color: $colorPrincipal;
+                        color: $blanco;
+                    }
                 }
             }
-            textarea{
-                resize: vertical;
-                max-height: 300px;
-                min-height: 100px;
-            }
+
             .tabla {
                 @extend %formatoTablas;
             }

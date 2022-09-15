@@ -59,22 +59,22 @@
                 </div>                 
                 <section class="contenidoContacto">
                     <form class="formGrupo" action="" method="get">
-                        <label for="nombre">Ingresar su nombre:</label>
-                        <input type="text" placeholder="Escribe tu nombre" name="nombre">
-                        <label for="correo">Ingresar correo:</label>
-                        <input type="email" placeholder="Escribe tu correo" name="correo" id="#">
-                        <label for="fecha">Fecha de viaje:</label>
-                        <input type="datetime" placeholder="Fecha estimada de viaje" name="fecha" id="#">
-                        <label for="seleccionar">¿Que servicio quieres consultar?</label>
+                        <h2>¿Como podemos ayudarte?</h2>
+                        <input type="text" placeholder="Ingrese su Nombre" name="nombre">
+                        <input type="email" placeholder="Ingrese su Correo" name="correo" id="#">
+                        <label for="fecha">Ingrese Fecha Estimada</label>
+                        <input type="date" name="fecha" id="#" min="2022-01-01">
                         <select name="seleccionar" id="#">
-                            <option value="" selected>Seleccionar</option>
+                            <option value="" selected>Seleccionar Servicio</option>
                             <option value="tours-disponibles">Tours</option>
                             <option value="traslasdos-vip">Traslados</option>
                             <option value="aventura">Aventura</option>
+                            <option value="reajendar">Reajendar</option>
+                            <option value="otros">Otros</option>
                         </select>
                         <label for="servicio">Si tienes dudas comentanos aqui.</label>
                         <textarea name="servicio" id="" cols="40" rows="10"></textarea>
-                        <input type="submit" value="Enviar">
+                        <input class="enviar" type="submit" value="Enviar">
                     </form>
     
                     <table class="tabla">                       

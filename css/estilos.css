@@ -162,7 +162,7 @@ main {
   .contenedor .contenido .contenidoTraslados img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px #298983; }
+    box-shadow: 10px 10px 10px #999898; }
   .contenedor .contenido .contenidoTraslados h2 {
     text-align: center;
     padding-bottom: 10px; }
@@ -198,39 +198,53 @@ main {
   flex-flow: row wrap;
   align-items: baseline;
   justify-content: space-around;
-  gap: 20px; }
+  gap: 30px; }
   .contenedor .contenido .contenidoContacto .formGrupo {
-    width: 300px;
+    width: 400px;
     padding: 10px;
-    border: 2px solid #7c4390;
+    border: 1px solid #7c4390;
     border-radius: 10px; }
+    .contenedor .contenido .contenidoContacto .formGrupo h2 {
+      padding: 20px;
+      font-size: 22px; }
     .contenedor .contenido .contenidoContacto .formGrupo label {
       width: 100%;
-      margin-bottom: 10px;
-      height: 35px;
+      padding-bottom: 10px;
       padding-left: 5px; }
     .contenedor .contenido .contenidoContacto .formGrupo input {
       width: 100%;
       margin-bottom: 10px;
       height: 35px;
-      padding-left: 5px;
-      transition: 5s; }
+      padding-left: 10px;
+      border: 1px solid #298983;
+      border-radius: 5px; }
       .contenedor .contenido .contenidoContacto .formGrupo input:focus {
+        transition: 3s;
         background-color: #d8a4eb; }
     .contenedor .contenido .contenidoContacto .formGrupo select {
       width: 100%;
       margin-bottom: 10px;
       height: 35px;
-      padding-left: 5px; }
+      padding-left: 10px;
+      border: 1px solid #298983;
+      border-radius: 5px; }
     .contenedor .contenido .contenidoContacto .formGrupo textarea {
       width: 100%;
       margin-bottom: 10px;
       height: 35px;
-      padding-left: 5px; }
-  .contenedor .contenido .contenidoContacto textarea {
-    resize: vertical;
-    max-height: 300px;
-    min-height: 100px; }
+      padding-left: 10px;
+      border: 1px solid #298983;
+      border-radius: 5px;
+      resize: vertical;
+      max-height: 300px;
+      min-height: 100px; }
+    .contenedor .contenido .contenidoContacto .formGrupo .enviar {
+      background-color: #298983;
+      color: #000000; }
+      .contenedor .contenido .contenidoContacto .formGrupo .enviar:hover {
+        background-color: #7c4390;
+        border-color: #7c4390;
+        color: #ffffff; }
 
 .contenedor .aside {
   grid-area: aside;
