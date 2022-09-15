@@ -1,6 +1,7 @@
 .contenedor {
     .aside { 
         grid-area: aside;
+        padding-top: 20px;
         display: flex; 
         flex-wrap: wrap;
         flex-direction: row;

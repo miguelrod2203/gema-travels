@@ -248,6 +248,7 @@ main {
 
 .contenedor .aside {
   grid-area: aside;
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -287,8 +288,7 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  height: 40px; }
+  align-items: baseline; }
   .contenedor .footer .redes-sociales h4, .contenedor .footer .nosotros h4, .contenedor .footer .ayuda h4 {
     text-align: center; }
   .contenedor .footer .redes-sociales ul li, .contenedor .footer .nosotros ul li, .contenedor .footer .ayuda ul li {
