@@ -90,13 +90,20 @@ main {
   gap: 20px;
   padding: 20px;
   grid-auto-flow: dense; }
-  .contenedor .contenido .contenidoIndex img {
-    width: 100%;
-    border-radius: 10px; }
   .contenedor .contenido .contenidoIndex .galeria {
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; }
+    .contenedor .contenido .contenidoIndex .galeria img {
+      max-width: 100%;
+      border-radius: 10px;
+      transition: transform 2s; }
+      .contenedor .contenido .contenidoIndex .galeria img:hover {
+        transition: transform 2s;
+        transform: scale(1.4); }
 
 .contenedor .contenido .contenidoTours {
   width: 100%;

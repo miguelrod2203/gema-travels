@@ -23,14 +23,24 @@
             gap: 20px;
             padding: 20px;
             grid-auto-flow: dense;
-            img {
-                width: 100%;
-                border-radius: 10px;
-            }
+
             .galeria {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                position: relative;
+                overflow: hidden;                
+                border-radius: 10px;
+
+                img {
+                    max-width: 100%;
+                    border-radius: 10px;
+                    transition: transform 2s;
+                    &:hover {  
+                        transition: transform 2s;
+                        transform: scale(1.4);
+                    }
+                }
             }
         }
     }
