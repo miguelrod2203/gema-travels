@@ -31,16 +31,33 @@
                 position: relative;
                 overflow: hidden;                
                 border-radius: 10px;
+                p {
+                    visibility: hidden;
+                    position: absolute;
+                    top: 80%;
+                    padding: 5px;
+                    transition: 1s;
+                    color: $blanco;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 10px;
+                }
 
                 img {
                     max-width: 100%;
                     border-radius: 10px;
                     transition: transform 2s;
+
                     &:hover {  
                         transition: transform 2s;
-                        transform: scale(1.4);
+                        transform: scale(1.4);                        
                     }
-                }
+                } 
+                &:hover {
+                    p {
+                        visibility: visible;
+                        transition: 2s;
+                    }
+                }               
             }
         }
     }

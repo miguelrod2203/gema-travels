@@ -97,6 +97,15 @@ main {
     position: relative;
     overflow: hidden;
     border-radius: 10px; }
+    .contenedor .contenido .contenidoIndex .galeria p {
+      visibility: hidden;
+      position: absolute;
+      top: 80%;
+      padding: 5px;
+      transition: 1s;
+      color: #ffffff;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px; }
     .contenedor .contenido .contenidoIndex .galeria img {
       max-width: 100%;
       border-radius: 10px;
@@ -104,6 +113,9 @@ main {
       .contenedor .contenido .contenidoIndex .galeria img:hover {
         transition: transform 2s;
         transform: scale(1.4); }
+    .contenedor .contenido .contenidoIndex .galeria:hover p {
+      visibility: visible;
+      transition: 2s; }
 
 .contenedor .contenido .contenidoTours {
   width: 100%;
