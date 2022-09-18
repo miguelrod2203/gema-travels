@@ -53,7 +53,8 @@ main {
 
 .contenedor .contenido .migas {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 50px; }
   .contenedor .contenido .migas nav .breadcrumb li a {
     text-decoration: none;
     color: #298983; }
@@ -286,13 +287,14 @@ main {
   width: 100%;
   padding: 10px;
   border: 2px solid #7c4390;
-  border-radius: 10px; }
-  .contenedor .contenido .Institucionalidad h1 {
-    text-align: center; }
+  border-top: none; }
   .contenedor .contenido .Institucionalidad h2 {
     text-align: center; }
   .contenedor .contenido .Institucionalidad p {
     text-align: center; }
+  .contenedor .contenido .Institucionalidad .politicas p {
+    text-align: justify;
+    padding-bottom: 2px; }
   .contenedor .contenido .Institucionalidad .terminos p {
     text-align: justify;
     padding-bottom: 2px; }
