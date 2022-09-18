@@ -10,6 +10,12 @@ modifique titulos <title> en cada seccion.
 
     contacto ...        Gema Contactos
 
+    quienes somos ...   Quienes somos
+
+    privacidad ...      Privacidad
+
+    terminos ...        Termios y Condiciones
+
 
 utilice el meta keywords en cada seccion.
 
@@ -31,6 +37,12 @@ utilice el meta title en cada seccion.
 
     contacto ...        Gema travels Vive con nosotros una gran aventura, cotiza aqui.
 
+    quienes somos ...   Gema travels somos lo que necesitas para viajar, compromiso y confianza.
+
+    privacidad ...      Gema travels tus datos personales son instransferibes.
+
+    terminos ...        Gema travels términos y condiciones sin letra chica.
+
 
 utilice el meta description en cada seccion 
 
@@ -51,6 +63,16 @@ utilice el meta description en cada seccion
     contacto ...        Bienvenido a chile, en Gema vive con nosotros una gran aventura, puedes cotizar sin 
                         compromiso y reprogramar o cancelar tu viaje avisando hasta 72 horas antes y te devolvemos 
                         la totalidad de tu aporte.
+
+    quienes somos ...   Bienvenido a chile, en Gema Travels conoce nuestra trayectoria, misión y visión, conoce 
+                        nuestra trayectoria.
+
+    privacidad ...      Bienvenido a chile, en Gema Travels tenemos políticas de privacidad que nos permiten 
+                        salvaguardar la información de todos nuestros clientes, evitando la fuga de información.
+
+    terminos ...        Bienvenido a chile, en Gema Travels queremos ayudar a las personas a realizar viajes 
+                        únicos  y que tengan claridad bajo los términos y condiciones para darles confianza 
+                        para viajar con nosotros.
 
     
 revise la jerarque de todos los encabezados (h) 
