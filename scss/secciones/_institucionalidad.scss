@@ -5,20 +5,22 @@
             padding: 10px;
             border: 2px solid $colorPrincipal;
             border-radius: 10px;
-        }
-        h1 {
-            text-align: center;
-        }
-        h2 {
-            text-align: center;
-        }
-        p {
-            text-align: center;
-        }
-        .terminos {
-            p {
-                text-align: justify;
+        
+            h1 {
+                text-align: center;
             }
-        }
+            h2 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+            .terminos {
+                p {
+                    text-align: justify;
+                    padding-bottom: 2px;
+                }
+            }
+        }    
     }
 }

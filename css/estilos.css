@@ -287,18 +287,15 @@ main {
   padding: 10px;
   border: 2px solid #7c4390;
   border-radius: 10px; }
-
-.contenedor .contenido h1 {
-  text-align: center; }
-
-.contenedor .contenido h2 {
-  text-align: center; }
-
-.contenedor .contenido p {
-  text-align: center; }
-
-.contenedor .contenido .terminos p {
-  text-align: justify; }
+  .contenedor .contenido .Institucionalidad h1 {
+    text-align: center; }
+  .contenedor .contenido .Institucionalidad h2 {
+    text-align: center; }
+  .contenedor .contenido .Institucionalidad p {
+    text-align: center; }
+  .contenedor .contenido .Institucionalidad .terminos p {
+    text-align: justify;
+    padding-bottom: 2px; }
 
 .contenedor .footer {
   grid-area: footer;
